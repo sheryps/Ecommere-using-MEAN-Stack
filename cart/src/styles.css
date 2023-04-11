@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 250px;
+    transition: 0.5;
+}
+
+.card-img-top:hover{
+    transform: scale(1.25);
+    transition: 0.5;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.py-5{
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+}
